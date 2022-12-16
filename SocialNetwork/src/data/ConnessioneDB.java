@@ -23,7 +23,7 @@ public class ConnessioneDB {
 		try {
 
 			if (con == null) {
-System.out.println("hello");
+				System.out.println("hello");
 				MysqlDataSource dataSource = new MysqlDataSource();
 				dataSource.setDatabaseName(NOME_DB);
 				dataSource.setPortNumber(PORT);

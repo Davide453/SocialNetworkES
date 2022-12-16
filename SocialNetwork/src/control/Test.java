@@ -4,7 +4,7 @@ public class Test {
 
 	public void ciao()
 	{
-		ciao salvo
+		
 	}
 	
 }

@@ -10,13 +10,11 @@ public class ConnessioneDB {
 
 	private static Connection con = null;
 	// parametri di configurazione del DB
-	private static final String NOME_DB = "socialnetwork";
+	private static final String NOME_DB = "jdbcweb";
 	private static final int PORT = 3306;
 	private static final String SERVER_NAME = "localhost";
 	private static final String USERNAME = "root";
-
-	private static final String PASSWORD = "jytytdkt";
-
+	private static final String PASSWORD = "";
 
 	public static Connection getCon() {
 		return con;
@@ -27,7 +25,7 @@ public class ConnessioneDB {
 		try {
 
 			if (con == null) {
-				
+				System.out.println("hello");
 				MysqlDataSource dataSource = new MysqlDataSource();
 				dataSource.setDatabaseName(NOME_DB);
 				dataSource.setPortNumber(PORT);

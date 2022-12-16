@@ -10,11 +10,11 @@ public class ConnessioneDB {
 
 	private static Connection con = null;
 	// parametri di configurazione del DB
-	private static final String NOME_DB = "jdbcweb";
+	private static final String NOME_DB = "socialnetwork";
 	private static final int PORT = 3306;
 	private static final String SERVER_NAME = "localhost";
 	private static final String USERNAME = "root";
-	private static final String PASSWORD = "Acya615134";
+	private static final String PASSWORD = "HYpd694.";
 
 	public static Connection getCon() {
 		return con;

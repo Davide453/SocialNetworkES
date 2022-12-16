@@ -5,6 +5,8 @@ package data;
 import java.sql.Connection;
 import java.sql.SQLException;
 
+import com.mysql.cj.jdbc.MysqlDataSource;
+
 public class ConnessioneDB {
 
 	private static Connection con = null;
@@ -13,7 +15,7 @@ public class ConnessioneDB {
 	private static final int PORT = 3306;
 	private static final String SERVER_NAME = "localhost";
 	private static final String USERNAME = "root";
-	private static final String PASSWORD = "Acya615134";
+	private static final String PASSWORD = "Salvatore1998";
 
 	public static Connection getCon() {
 		return con;

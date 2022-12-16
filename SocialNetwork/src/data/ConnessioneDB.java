@@ -14,7 +14,9 @@ public class ConnessioneDB {
 	private static final int PORT = 3306;
 	private static final String SERVER_NAME = "localhost";
 	private static final String USERNAME = "root";
+
 	private static final String PASSWORD = "Pernasino5.";
+
 
 	public static Connection getCon() {
 		return con;

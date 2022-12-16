@@ -15,7 +15,12 @@ public class ConnessioneDB {
 	private static final String SERVER_NAME = "localhost";
 	private static final String USERNAME = "root";
 
+<<<<<<< HEAD
 	private static final String PASSWORD = "";
+=======
+	private static final String PASSWORD = "Pernasino5.";
+
+>>>>>>> branch 'main' of https://github.com/Davide453/SocialNetworES.git
 
 
 	public static Connection getCon() {

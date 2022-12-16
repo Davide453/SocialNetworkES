@@ -18,6 +18,7 @@ public class ConnessioneDB {
 	private static final String PASSWORD = "Pernasino5.";
 
 
+
 	public static Connection getCon() {
 		return con;
 	}

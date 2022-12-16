@@ -50,5 +50,6 @@ public class ConnessioneDB {
 			e.printStackTrace();
 		}
 	}
+}
 
 

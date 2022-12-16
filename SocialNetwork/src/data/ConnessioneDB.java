@@ -15,7 +15,7 @@ public class ConnessioneDB {
 	private static final String SERVER_NAME = "localhost";
 	private static final String USERNAME = "root";
 
-	private static final String PASSWORD = "jytytdkt";
+	private static final String PASSWORD = "";
 
 
 	public static Connection getCon() {
